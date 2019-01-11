@@ -383,3 +383,13 @@ footer nav a {
 .form-block {
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 600px) {
+
+.contact-image {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+}
