@@ -72,8 +72,8 @@ p {
 }
 
 header {
-    border: 1px solid red;
     display: flex;
+    margin-top: 10px;
     margin-bottom: 30px;
     justify-content: space-between;
     align-items: flex-end;
@@ -91,6 +91,10 @@ header nav a {
 }
 
 .header-image{
+    margin-bottom: 20px;
+}
+
+.header-image-about {
     border: 1px solid red;
     margin-bottom: 20px;
 }
@@ -119,6 +123,75 @@ header nav a {
     padding: 0 2%;
     margin-bottom: 0;
 }
+
+/* About Page */
+
+.about-intro {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-container {
+    padding: 0 1%;
+}
+
+.about-main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.about-main .about-box-a {
+    width: 48%;
+    padding: 0 1%;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.about-main .about-box-b {
+    width: 48%;
+    padding: 0 1%;
+    flex-flow: row wrap;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.about-main .about-box-c {
+    width: 48%;
+    padding: 0 1%;
+    flex-flow: row wrap;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.about-main .about-box-d {
+    width: 48%;
+    padding: 0 1%;
+    flex-flow: row wrap;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.about-button {
+    width: 100px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+.about-bottom {
+    padding: 0 1%;
+    margin-bottom: 40px;
+}
+
+/* About Page ^ */
 
 .middle-content .boxes {
     display: flex;
