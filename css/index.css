@@ -205,6 +205,47 @@ header nav a {
     border-bottom: 1px dashed black;
 }
 
+.contact-button {
+    width: 100px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse 2s infinite;
+
+}
+
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+
 /* Contact Page ^ */
 
 .middle-content .boxes {
@@ -383,6 +424,12 @@ footer nav a {
 .form-block {
     margin-bottom: 40px;
 }
+
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
 
