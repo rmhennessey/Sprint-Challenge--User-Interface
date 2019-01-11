@@ -95,7 +95,6 @@ header nav a {
 }
 
 .header-image-about {
-    border: 1px solid red;
     margin-bottom: 20px;
 }
 
@@ -192,6 +191,21 @@ header nav a {
 }
 
 /* About Page ^ */
+
+/* Contact Page */
+
+.contact-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact-intro {
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+/* Contact Page ^ */
 
 .middle-content .boxes {
     display: flex;
@@ -362,4 +376,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Stretch */
+
+.form-block {
+    margin-bottom: 40px;
 }
