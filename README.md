@@ -34,13 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the writing of meaningful code. The goal is to create in a way that best achieves 1) Accessibility 2) Understanding (make it easy for future developers to understand what you are doing 3) Search Engine Optimization.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+A block element always starts on a new line, and fills up the horizontal space. You can add margins and padding on all four sides of any block element — top, right, left, and bottom.
+
+They do not want (or allow) anyone else to crowd their space.
+
+Inline elements don’t start on a new line, instead appearing on the same line as the content and tags beside them. You can add space to the left and right on an inline element, but you cannot add height to the top or bottom padding or margin of an inline element.
+
+They are friendlier neighbors.
+
 
 3. What are the 4 areas of the box model?
 
+Content -> Padding -> Border -> Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+As a distributed version control system, git allows, each developer to set up their own local repository, complete with a full history of commits. This means that the team can create a safer environment (tracking changes at every step) while also facilitating faster development.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
